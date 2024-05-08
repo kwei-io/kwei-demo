@@ -1,0 +1,16 @@
+{
+  "name": "kwei-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify index.js -o bundle.js -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kwei-client-js-sdk": "^1.0.0",
+    "watchify": "^4.0.0"
+  }
+}
